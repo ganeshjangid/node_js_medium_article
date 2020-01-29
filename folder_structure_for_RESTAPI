@@ -1,0 +1,29 @@
+nodejs-api-structure
+└───src
+    │
+    └───config
+    │   │   globals.ts
+    │   │   logger.ts
+    │   │   permissions.ts
+    │
+    └───api 
+    │   │
+    │   └───components
+    │   │   │
+    │   │   └───article
+    │   │   │
+    │   │   └───user
+    │   │       │   controller.ts
+    │   │       │   model.ts
+    │   │       │   routes.ts
+    │   │       │   service.ts
+    │   │
+    │   └───middleware
+    │   │   │   auth.ts
+    │   │   │   compression.ts
+    │   │
+    │   │   routes.ts
+    │   │   server.ts
+    │
+    └───services
+    │   index.ts
