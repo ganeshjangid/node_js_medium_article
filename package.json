@@ -4,12 +4,16 @@
   "description": "",
   "main": "error_handling_expressJs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon 11_javascript_tip.js",
+    "debug":""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "force": "0.0.3",
+    "nodemon": "^2.0.2"
   }
 }
